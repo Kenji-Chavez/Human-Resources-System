@@ -1,6 +1,8 @@
 # Sistema de Recursos Humanos
 
-Proyecto CRUD de gestión de empleados desarrollado con Spring Boot y React.
+Aplicación CRUD de gestión de empleados desarrollada con Spring Boot y React. Permite administrar registros de empleados incluyendo creación, edición, eliminación y visualización.
+
+---
 
 ## Funcionalidades
 - Listar empleados
@@ -8,31 +10,41 @@ Proyecto CRUD de gestión de empleados desarrollado con Spring Boot y React.
 - Editar empleados
 - Eliminar empleados
 
-## Tecnologías
-Backend:
+---
+
+## Tecnologías utilizadas
+
+### Backend
 - Spring Boot
 - Java
 - MySQL
 
-Frontend:
+### Frontend
 - React
 - JavaScript
 - CSS
 
+---
+
 ## Estructura del proyecto
-/backend-spring → API REST  
-/frontend-react → Interfaz de usuario  
+/recursos-humanos-spring → API REST  
+/recursos-humanos-app → Interfaz de usuario  
+/assets → Capturas del sistema  
+
+---
 
 ## Cómo ejecutar el proyecto
 
 ### Backend
-cd backend-spring  
-mvn spring-boot:run
+cd recursos-humanos-spring  
+mvn spring-boot:run  
 
 ### Frontend
-cd frontend-react  
+cd recursos-humanos-app  
 npm install  
-npm start
+npm start  
+
+---
 
 ## Autor
-Kenji Chavez Tapia
+**Kenji Chavez Tapia**
